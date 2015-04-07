@@ -10,10 +10,10 @@ object week1p5 {
     def generate = rand.nextInt()
   }                                               //> integers  : com.github.lkrigby.coursera.rp.week1.Generator[Int]{val rand: ja
                                                   //| va.util.Random} = com.github.lkrigby.coursera.rp.week1.week1p5$$anonfun$main
-                                                  //| $1$$anon$1@764f5403
+                                                  //| $1$$anon$1@6e8dacdf
   
   val booleans = for (x <- integers) yield x > 0  //> booleans  : com.github.lkrigby.coursera.rp.week1.Generator[Boolean] = com.gi
-                                                  //| thub.lkrigby.coursera.rp.week1.Generator$$anon$1@b5d7f70
+                                                  //| thub.lkrigby.coursera.rp.week1.Generator$$anon$1@36d64342
   
   def single[T](x: T): Generator[T] = new Generator[T] {
     def generate = x
